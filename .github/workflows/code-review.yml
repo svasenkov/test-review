@@ -17,7 +17,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OLLAMA_API_KEY: sk-af603c6098d2444b91f53e210c106476
           OLLAMA_KEY: sk-af603c6098d2444b91f53e210c106476
-          OLLAMA_TOKEN: sk-af603c6098d2444b91f53e210c106476
+          OPENAI_API_KEY: sk-af603c6098d2444b91f53e210c106476
           LANGUAGE: Russian
           MODEL: openchat
           OPENAI_API_ENDPOINT: https://autotests.ai/adapter/v1
