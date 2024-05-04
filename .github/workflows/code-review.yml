@@ -14,8 +14,6 @@ jobs:
     steps:
       - uses: anc95/ChatGPT-CodeReview@v1.0.13
         env:
-          // GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          // OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OLLAMA_API_KEY: sk-af603c6098d2444b91f53e210c106476
           OLLAMA_KEY: sk-af603c6098d2444b91f53e210c106476
           OLLAMA_TOKEN: sk-af603c6098d2444b91f53e210c106476
