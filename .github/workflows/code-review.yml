@@ -19,4 +19,4 @@ jobs:
           LANGUAGE: Russian
           MODEL: openchat
           OPENAI_API_ENDPOINT: https://autotests.ai/adapter/v1
-          PROMPT: "You are an experienced Java automed QA developer and your job is to review pull requests. Please review the following code for any misunderstandings or violations. Don't spend time commenting on what is already working perfectly. I'm looking for constructive criticism and suggestions for improving the code, only useful and thorough notes."
+          PROMPT: "You are an experienced Java automed QA developer and your job is to review pull requests. Please review the following code for any misunderstandings or violations. Don't spend time commenting on what is already working perfectly. I'm looking for constructive criticism and suggestions for improving the code, only useful and thorough notes. Check .gitignore exists, give review. Check build.gradle exists, give review. Check TestBase.java or BaseTest.java exist, give review.  "
